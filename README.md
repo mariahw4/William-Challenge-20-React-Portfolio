@@ -73,6 +73,7 @@ npm install
 ```bash
 npm run start
 ```
+Then go to your browser and go to http://localhost:3000/
 
 ## Live URL
 <img src="src/assets/images/Screenshot 2024-09-18 at 8.45.01 PM.png">
