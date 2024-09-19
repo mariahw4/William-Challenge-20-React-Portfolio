@@ -1,23 +1,25 @@
 import './Footer.css';
 
-export default function Footer () {
+const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer-container">
-                <div className="footer-links">
-                    <a href="https://github.com/ItsWillyNilly">GitHub</a>
-                    <a href="https://www.linkedin.com/in/willcylee/">LinkedIn</a>
-                 </div>
-            </div>
-            <div className="footer-container">
-                <div className="footer-license">
-                    <h5>
-                        William Lee All Rights Reserved. 
-                    </h5>
+            <div className="container">
+                <div className="footer-social">
+                    <a href="https://github.com/itswillynilly" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/willcylee/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
             </div>
-
-            
+            <div className="container">
+                <div className="row">
+                    <div className="mx-auto">
+                        <h5>
+                            William Copyright 2024
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </footer>
     );
 }
+
+export default Footer;

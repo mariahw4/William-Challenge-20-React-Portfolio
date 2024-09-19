@@ -1,15 +1,17 @@
 import './Header.css';
-import Nav from '../Nav/Nav.jsx';
+import NavTabs from '../Navigation/Navigation.jsx';
 
-export default function Header() {
-  return (
-    <header className="header">
-        <div className="container">
-            <img src= {logo} alt="My Logo" className="logo" />
-            <nav>
-                <Nav />
-            </nav>
-        </div>
-    </header>
-  );
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="container">
+                    {/* <img src={logo} alt="William logo" className="logo" /> */}
+                <nav>
+                    <NavTabs />
+                </nav>
+            </div>
+        </header>
+    );
 }
+
+export default Header;
