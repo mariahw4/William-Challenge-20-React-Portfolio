@@ -1,9 +1,9 @@
-import portfolio from '../assets/images/professional-portfolio.png';
-import payrollTracker from '../assets/images/payroll-tracker.png';
-import astroWhisper from '../assets/images/astro-whisper.png';
-import weatherDashboard from '../assets/images/weather-dashboard.png';
-import noteTaker from '../assets/images/note-taker.png';
-import taskBoard from '../assets/images/task-board.png';
+import portfolio from '/images/professional-portfolio.png';
+import payrollTracker from '/images/payroll-tracker.png';
+import astroWhisper from '/images/astro-whisper.png';
+import weatherDashboard from '/images/weather-dashboard.png';
+import noteTaker from '/images/note-taker.png';
+import taskBoard from '/images/task-board.png';
 
 const Portfolio = () => {
     const projects = [

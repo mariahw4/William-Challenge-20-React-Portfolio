@@ -1,4 +1,4 @@
-import SelfPortrait from '../assets/images/IMG_9605.jpeg'
+import SelfPortrait from '/images/IMG_9605.jpeg'
 
 const AboutMe = () => {
     return (
