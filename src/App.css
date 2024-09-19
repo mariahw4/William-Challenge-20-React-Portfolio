@@ -1,0 +1,181 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #0F1808; /* Night */
+    color: #FBFCFF; /* White */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+a {
+    color: #464646; /* Andrew Purple */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #db2c00; /* French Gray */
+}
+
+.about-me {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bio-title {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.bio {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.profile-photo {
+    border-radius: 100px;
+    border: 3px solid #0f1808;
+}
+
+/* CSS Styles for the Projects found in Portfolio Page */
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project .links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.project:hover .links {
+    opacity: 1;
+}
+
+.project .links a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.live-demo {
+    background-color: #652D90;
+    color: white;
+}
+
+.live-demo:hover {
+    background-color: #96909b;
+}
+
+.github-repo {
+    background-color: #2D5890;
+    color: white;
+}
+
+.github-repo:hover {
+    background-color: #96909b;
+}
+
+/* CSS Styles found in Resume Page */
+.resumebtn {
+    padding: 30px;
+    background-color: #652D90;
+    color: white;
+}
+
+.downloadbtn {
+    padding: 30px;
+}
+
+.employment-italic {
+    font-style: italic;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+aside {
+    padding: 20px;
+    background-color: #29252D;
+    border-radius: 5px;
+}
+
+aside h3 {
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+aside ul li {
+    margin-bottom: 5px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* CSS Styles found in Contact Page */
+.contact-form .form-label {
+    font-weight: bold;
+}
+
+.contact-form .form-control {
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.contact-form .error {
+    margin-top: 0.25rem;
+}
+
+.btn-contact {
+    background-color: #652D90;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+.btn-contact:hover {
+    background-color: #5A0BA0;
+    color: white;
+}

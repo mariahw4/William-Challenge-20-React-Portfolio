@@ -1,0 +1,14 @@
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.employment-italic {
+    font-style: italic;
+}
+
+.experience {
+    margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+.footer {
+    background-color: #dddddd;
+    color: #363636
+}
+
+.footer .footer-container {
+    display: flex;
+    align-items: right;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    color: #363636;
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    color: red;
+}
